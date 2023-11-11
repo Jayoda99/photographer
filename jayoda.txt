@@ -1,0 +1,94 @@
+10 + 5
+15
+10 - 4
+6
+10 * 4
+40
+20 / 4
+5
+9 % 2
+1
+var a = 1
+undefined
+a
+1
+a++
+1
+a
+2
+++a
+3
+a
+3
+a--
+3
+a
+2
+--a
+1
+a
+1
+a = a + 1
+2
+var username = 'dileep'
+undefined
+username
+'dileep'
+username == 'admin'
+false
+username = 'admin'
+'admin'
+username == 'admin'
+true
+username != 'admin'
+false
+var maths = 48
+undefined
+maths > 40
+true
+maths < 40
+false
+var english = 38
+undefined
+english < 40
+true
+english > 40
+false
+
+---------------------------------------------------------------------------------------------------------------------
+
+maths = 48
+48
+english =40
+40
+maths
+48
+english
+40
+maths > 40 && english > 40
+false
+maths > 40 || english > 40
+true
+var pass = true
+undefined
+!pass
+false
+pass
+true
+var firstname = 'Nimal'
+undefined
+var lastname = 'Perera'
+undefined
+firstname + lastname
+'NimalPerera'
+fullname = firstname + lastname
+'NimalPerera'
+firstname = firstname + ' ' + lastname
+'Nimal Perera'
+firstname
+'Nimal Perera'
+5 + " Stars"
+'5 Stars'
+
+---------------------------------------------------------------------------------------------------------------------
+
