@@ -1,8 +1,8 @@
-var total = 0;
+var total = parseFloat(0);
 
 for (var i = 1; i <= 3; i++) {
 	
-	var givenNumber = prompt("Enter marks " + i + ": ");
+	var givenNumber = parseFloat(prompt("Enter marks " + i + ": "));
 	
 	var total = total + givenNumber;
 }
@@ -14,13 +14,13 @@ document.write("Your Average is: " + avg);
 document.write("<br>")
 gradeChecker(avg);
 
-function gradeChecker() {
+function gradeChecker(x) {
 	
-	if (avg >= 81) {
+	if (x >= 81) {
 		document.write("Your Grade is: A");
-	} else if (avg >= 61){
+	} else if (x >= 61){
 		document.write("Your Grade is: B");
-	} else if (avg >= 41) {
+	} else if (x >= 41) {
 		document.write("Your Grade is: C");
 	} else {
 		document.write("Your Grade is: F");
